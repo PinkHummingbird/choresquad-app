@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Join a squad on Chore Squad</title>
+<style>
+  :root { --bg:#F7F5FD; --surface:#fff; --text:#24203A; --text-2:#5F5A78; --line:#E2DCF5; --accent:#7C63D8; --on-accent:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#15131F; --surface:#1E1B2A; --text:#EEEAFB; --text-2:#A9A3C4; --line:#332E48; --accent:#C9B8FF; --on-accent:#15131F; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif; padding:40px 16px; }
+  main { max-width:440px; margin:0 auto; display:flex; flex-direction:column; gap:20px; }
+  h1 { font-size:1.8rem; line-height:1.2; margin:0; }
+  p { margin:0; color:var(--text-2); }
+  .step { background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:20px; display:flex; flex-direction:column; gap:12px; }
+  .step b { color:var(--text); }
+  .btn { display:block; text-align:center; text-decoration:none; font-weight:700; border-radius:14px; padding:14px 16px; min-height:48px; }
+  .primary { background:var(--accent); color:var(--on-accent); }
+  .secondary { box-shadow:inset 0 0 0 1.5px var(--accent); color:var(--text); }
+  .note { font-size:.9rem; }
+  a { color:var(--accent); }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>You're invited to a squad on Chore Squad</h1>
+  <p>Chore Squad is a family chore app for iPhone. Two steps and you're in.</p>
+
+  <div class="step">
+    <p><b>1. Get Chore Squad</b> (skip this if you already have it)</p>
+    <a class="btn secondary" href="https://apps.apple.com/app/id6814967536">Get it on the App Store</a>
+    <p class="note">Testing the beta? Open <a href="itms-beta://">TestFlight</a> instead.</p>
+  </div>
+
+  <div class="step" id="join-step">
+    <p><b>2. Join the squad</b></p>
+    <a class="btn primary" id="join" href="#">Join the squad</a>
+    <p class="note">This opens Chore Squad and adds you to the household. Use the iPhone you'll use Chore Squad on, signed in to iCloud.</p>
+  </div>
+
+  <div class="step" id="bad-link" hidden>
+    <p><b>This invite link looks incomplete.</b> Ask whoever sent it to send it again from Chore Squad: Squad › Invite a member.</p>
+  </div>
+
+  <p class="note"><a href="./">Chore Squad home</a> · <a href="privacy">Privacy Policy</a> · <a href="support">Support</a></p>
+</main>
+<script>
+  // The household's iCloud invite link travels in the part after "#", which
+  // browsers never send to this website. Only Apple's iCloud share links are
+  // accepted, so the page can't be used to send people anywhere else.
+  (function () {
+    var raw = location.hash.slice(1);
+    var target = null;
+    try { target = new URL(decodeURIComponent(raw)); } catch (e) { target = null; }
+    var ok = target && target.protocol === 'https:' &&
+      (target.hostname === 'www.icloud.com' || target.hostname === 'icloud.com') &&
+      target.pathname.indexOf('/share/') === 0;
+    if (ok) {
+      document.getElementById('join').href = target.href;
+    } else {
+      document.getElementById('join-step').hidden = true;
+      document.getElementById('bad-link').hidden = false;
+    }
+  })();
+</script>
+</body>
+</html>
