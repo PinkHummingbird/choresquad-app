@@ -1,10 +1,10 @@
-# Chore Squad site
+# choresquad-app
+Chore Squad: Family Cleaning
 
-Public pages for the Chore Squad iPhone app, served by GitHub Pages at
-https://pinkhummingbird.github.io/choresquad-site/
+The app's website, served by GitHub Pages at https://pinkhummingbird.github.io/choresquad-app/. No source code lives here (the app is in PinkHummingbird/ChoreSquad).
 
-- `privacy.html`: privacy policy (App Store Connect → Privacy Policy URL, and the app's `AppIdentifiers.privacyPolicyURL`)
-- `support.html`: support page (App Store Connect → Support URL)
-- `index.html`: home (Marketing URL, optional)
+- `index.md` — home page
+- `support.md` — support page, the App Store's support URL target (`/support`)
+- `privacy.md` — privacy policy (`/privacy`), also linked from the app (`AppIdentifiers.privacyPolicyURL`)
 
-Plain HTML, no build step. Edit and push to `main`.
+Contact: choresquad.app.support@gmail.com
