@@ -2,7 +2,7 @@
 
 [Chore Squad home](./) · [Support](support)
 
-_Last updated: 15 November 2026_
+_Last updated: 15 November 2026 (children 4 and up can join on their own iPhone)_
 
 **Contact:** [choresquad.app.support@gmail.com](mailto:choresquad.app.support@gmail.com)
 
@@ -31,7 +31,7 @@ A parent passcode, if you set one, is kept only in this device's Keychain and is
 
 ## Children
 
-A parent sets up the household and creates each child's profile. Children can't create an account or invite anyone. A child under 13 uses a profile on a parent's device; older children can join from their own device with their own Apple Account, through the parent's invitation. We collect only what chores need, and none of it reaches us.
+Chore Squad is made for families with children aged 4 and up. A parent sets up the household and creates each child's profile. Children can't create a profile for themselves, sign up, or invite anyone. A child can join from their own iPhone through the parent's invitation, signed in to their own Apple Account; for a child under 13 that is a Child Account the parent creates in Apple's Family Sharing. Chore Squad never creates an account or asks a child for an email address, phone number or password. A child without their own iPhone uses a profile on a parent's device instead. We collect only what chores need, and none of it reaches us.
 
 ## Purchases
 

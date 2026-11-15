@@ -8,7 +8,7 @@ We reply within two working days. Say which iPhone and iOS version you use, and 
 
 ## Common questions
 
-**How do I add my family?** Open Squad and tap Invite. Each person joins on their own device with their own Apple Account. A younger child can use a profile on your phone instead: turn on "Let a child use this device" in Settings.
+**How do I add my family?** Open Squad, add each child's profile, then tap Invite a member › Create invite link › Send invite. Everyone, including kids from age 4, joins on their own iPhone by tapping the link and then their name. A child under 13 needs their iPhone signed in to a Child Account from Family Sharing. A child without an iPhone can use a profile on yours: turn on "Let a child use this device" in Settings.
 
 **The invite doesn't work.** Make sure you're signed in to iCloud in the iPhone's Settings, with iCloud Drive on, then try again.
 
