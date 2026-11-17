@@ -16,6 +16,8 @@ We reply within two working days. Say which iPhone and iOS version you use, and 
 
 **Does the app move money?** No. Balances are a record of what's been earned. You settle up in real life, outside the app.
 
+**What does Free include?** 1 parent, 1 child, 3 new chores and 3 finished chores a week, 1 Squad Goal and 7 days of Insights. In version 1.0.1 and later, a child can always tap "I did it!": the weekly limit applies when a parent approves, and any extra chores wait in Requests until next week, or until you upgrade in Squad › Your plan.
+
 **How do I restore Pro?** Squad › Your plan › See Pro › Restore. Pro is shared through Family Sharing.
 
 **How do I use an offer code?** In the app (version 1.0.1 and later): Squad › Your plan › See Pro › Redeem a code. Or in the App Store app: tap your picture, then Redeem Gift Card or Code.
