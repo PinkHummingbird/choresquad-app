@@ -2,7 +2,7 @@
 
 [Chore Squad home](./) · [Support](support)
 
-_Last updated: 15 November 2026 (children 4 and up can join on their own iPhone)_
+_Last updated: 17 November 2026 (notifications; a child invited by a parent's link can add their own profile)_
 
 **Contact:** [choresquad.app.support@gmail.com](mailto:choresquad.app.support@gmail.com)
 
@@ -29,9 +29,13 @@ Everything is stored on your devices and in your family's own iCloud, using Appl
 
 A parent passcode, if you set one, is kept only in this device's Keychain and is not included in iCloud backups.
 
+## Notifications
+
+From version 1.0.1, Chore Squad can send notifications, for example when a chore is due or ready to check, if you allow them. Your iPhone writes each notification itself. When something changes in your household, iCloud only signals your devices to check; that signal carries none of your family's data, and nothing passes through us. You can turn notifications off in the iPhone's Settings › Notifications › Chore Squad.
+
 ## Children
 
-Chore Squad is made for families with children aged 4 and up. A parent sets up the household and creates each child's profile. Children can't create a profile for themselves, sign up, or invite anyone. A child can join from their own iPhone through the parent's invitation, signed in to their own Apple Account; for a child under 13 that is a Child Account the parent creates in Apple's Family Sharing. Chore Squad never creates an account or asks a child for an email address, phone number or password. A child without their own iPhone uses a profile on a parent's device instead. We collect only what chores need, and none of it reaches us.
+Chore Squad is made for families with children aged 4 and up. A parent sets up the household and usually creates each child's profile. From version 1.0.1, a child who opens a parent's invitation link can add their own name and age to that household; the parent sees the profile in Squad and can edit or remove it. Children can't create a household, sign up, or invite anyone. A child can join from their own iPhone through the parent's invitation, signed in to their own Apple Account; for a child under 13 that is a Child Account the parent creates in Apple's Family Sharing. Chore Squad never creates an account or asks a child for an email address, phone number or password. A child without their own iPhone uses a profile on a parent's device instead. We collect only what chores need, and none of it reaches us.
 
 ## Purchases
 
