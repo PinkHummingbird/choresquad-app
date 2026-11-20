@@ -2,7 +2,7 @@
 
 [Chore Squad home](./) · [Support](support)
 
-_Last updated: 17 November 2026 (notifications; a child invited by a parent's link can add their own profile)_
+_Last updated: 21 November 2026 (Buddies: cheers and nudges between paired children)_
 
 **Contact:** [choresquad.app.support@gmail.com](mailto:choresquad.app.support@gmail.com)
 
@@ -19,6 +19,7 @@ Chore Squad is a family chore app. This policy explains what the app stores, whe
 - Each member's display name, character (avatar) and role (parent or child), and a child's age.
 - Chores, rewards, balances, streaks, badges, goals and their history.
 - Photos a member takes or picks as proof that a chore is done.
+- From version 1.0.1, Buddies: which two children a parent has paired, and the cheers and nudges they send each other. These are stickers and ready-made phrases only; a child can't type a message.
 - Settings for your household and this device.
 
 The app does not ask for or store email addresses, phone numbers, location, contacts or payment details.
